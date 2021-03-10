@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1289A7;
+    height: 60px;
+}
+.brand {
+    margin-left: 20px;
+}
+.brand h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.menu {}
+.menu ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.menu ul li {
+    margin-left: 20px;
+    margin-right: 5px;
+}
+.menu ul li a {
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    transition: 0.5s;
+
+}
+.menu ul li a:hover {
+    color: #000;
+}
+
+
+header{
+	background: #efefef;
+	height: 500px;
+}
+
